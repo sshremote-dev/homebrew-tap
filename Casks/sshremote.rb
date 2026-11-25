@@ -1,6 +1,6 @@
 cask "sshremote" do
-  version "0.25.38"
-  sha256 "c4c9706e549e7e9de8bc85f0d0496c0452af0b966029313edd68afeef19b86af"
+  version "0.25.39"
+  sha256 "1584623221b3f4299bfe7ddb2fbe5fd52345a707e16e82a2bd900d0cbd76518e"
 
   url "https://github.com/sshremote-dev/sshremote/releases/download/v#{version}/sshremote-macos.zip"
   name "SSH Remote"

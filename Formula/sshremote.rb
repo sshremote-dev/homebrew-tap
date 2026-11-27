@@ -1,19 +1,19 @@
 class Sshremote < Formula
   desc "One workspace for all your servers and projects"
   homepage "https://sshremote.dev/"
-  version "0.25.52"
+  version "0.26.0"
   license "MIT"
 
   depends_on :linux
 
   on_linux do
     on_intel do
-      url "https://github.com/sshremote-dev/sshremote/releases/download/v0.25.52/sshremote-linux-x86_64"
-      sha256 "bec2b59f004b4a2c7ad56143387ee08cf0aaaf69e487f50f0cbceda7c8158344"
+      url "https://github.com/sshremote-dev/sshremote/releases/download/v0.26.0/sshremote-linux-x86_64"
+      sha256 "748b8f26f352706ff4c0a2521f924f16826e762424c96d7f68fae504a9f5f833"
     end
     on_arm do
-      url "https://github.com/sshremote-dev/sshremote/releases/download/v0.25.52/sshremote-linux-aarch64"
-      sha256 "b3304ae550b0a374602ffa4bdfa8c4b02cd18b32ad8e5e751700bea282376472"
+      url "https://github.com/sshremote-dev/sshremote/releases/download/v0.26.0/sshremote-linux-aarch64"
+      sha256 "a010c389ed7e2c33d03db923a7980773d0cf3f5248420ab7f45db38933e1fb06"
     end
   end
 
